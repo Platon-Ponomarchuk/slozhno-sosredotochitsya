@@ -185,10 +185,6 @@
   flex-direction: column;
 }
 
-.better-concetration-articles__first-heading {
-  margin: 0;
-}
-
 .main__not-bold-heading {
   font-weight: 400;
 }
