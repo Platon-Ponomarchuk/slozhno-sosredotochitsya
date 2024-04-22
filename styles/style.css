@@ -2,6 +2,7 @@
 
 .page {
   background-image: var(--background-image);
+  background-color: var(--background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,11 +37,11 @@
   background-color: transparent;
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   border: 1px solid var(--button-border-color);
 }
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   border: 1px solid var(--button-border-color-hover);
 }
 
@@ -213,7 +214,7 @@
 }
 
 @media (width <= 768px) {
-  .header__theme-menu-list{
+  .header__theme-menu-list {
     flex-direction: column;
   }
 
@@ -230,7 +231,7 @@
   }
 }
 
-@media (width < 650px){
+@media (width < 650px) {
   .header {
     padding: 10px;
   }

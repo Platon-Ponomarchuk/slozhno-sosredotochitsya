@@ -13,6 +13,7 @@
   --title-color: #ffc2e6;
   --button-border-color: #353430;
   --text-color: #353430;
+  --background-color: #FFF1F7;
   --button-border-color-hover: rgba(50, 49, 45, 0.4);
   --background-image: url('../images/cover-image-light.png');
 }
@@ -21,7 +22,7 @@
   display: none;
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   .rec {
     display: none;
   }

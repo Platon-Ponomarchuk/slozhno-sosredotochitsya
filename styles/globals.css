@@ -21,7 +21,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-html{
+html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
